@@ -21,7 +21,7 @@ if (isset($_POST['submit'])) {
     $request_info = curl_getinfo($ch);
     $request_headers = curl_getinfo($ch, CURLINFO_HEADER_OUT);
 
-    if (strpos($response, '-') === 0 || strpos($response, '<') === 0) {
+    if (strpos($response, '-') === 0 || strpos($response, '<') === 0) { # i swear this is the most lazy thing ever, what was wrong with me
         die('Login failed!');
     }
 
