@@ -8,9 +8,8 @@ cd GDChat*
 php -S 0.0.0.0:8000
 ```
 ## TODO
-- Moderation System
-- Prevent spam and other attacks
 - Get user icons (gdbrowser api sucks for this bruh tf)
-- In-chat badges (Owner, Moderator, Supporter)
+- Themes
+- Private Messages
 ## WOW! It doesnt need a database!
 <img src="https://pbs.twimg.com/profile_images/1514124230656692226/4Wh0zb90_400x400.jpg">
